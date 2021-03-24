@@ -25,16 +25,16 @@ test_set_portion = .05
 
 gpu_cuda = torch.cuda.is_available()
 
-lr = .03
+lr = .01
 weight_decay = 5e-4
 
-batch_size = 2
+batch_size = 16
 num_workers = 0
 
 num_classes = 5
 
 ###DENSENET
-depth = 100
+depth = 50
 
 def main():
     print("Using CUDA:      {}".format(gpu_cuda))
